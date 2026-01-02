@@ -11,6 +11,7 @@ function Navbar(){
         <NavLink to='/contact' className={({isActive})=>isActive? "text-orange-700":"text-gray-500"}>
             Contact
         </NavLink>
+          
         </div>
     )
 }
