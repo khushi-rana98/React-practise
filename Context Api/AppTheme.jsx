@@ -1,16 +1,11 @@
 import React from 'react'
-import Navbar from './Nav'
-import Content from './Content';
-import Footer from './Footer'
-import ThemeProvider from './ThemeProvider';
+import ThemeProvider from './ThemeProvider'
+import Layout from './Layout'
 function AppTheme() {
   return (
-  <ThemeProvider>
-    <Navbar/>
-    <Content/>
-    <Footer/>
-  </ThemeProvider>
-
+   <ThemeProvider>
+    <Layout/>
+   </ThemeProvider>
   )
 }
 
